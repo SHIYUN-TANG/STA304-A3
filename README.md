@@ -1,1 +1,5 @@
-# STA304-A3
+# Forecasting the Overall Popular Vote of the 2020 American Federal Election Using Multilevel Regression with Post-Stratification
+
+Xinyu Tan, Boxiang Tang, Shiyun Tang, Muxin Zhang
+
+Given this analysis's objective is to predict the overall popular vote of the 2020 American federal election, we chose to use multilevel regression with post-stratification (MRP) for the most accurate forecasting. MRP is a common technique when it comes to forecasting issues concerning politics. It is used to obtain accurate micro-level subgroups (individual states, demographic subgroups, etc.) estimates, which are then combined with subgroups’ weight in the population (calculated from census data) by certain mathematical formula to get a macro-level estimate (Ghitza & Gelman, 2013; Lax & Phillips, 2009; Park et al., 2004). Not only is MRP applicable for representative sampling data, but it can also help researchers generate quite accurate results for non-representative sampling data. (Wang et al., 2014). Hence by employing MRP, the statistical strength of the conclusion of our analysis can be guaranteed. MRP can be divided into two parts, which are multilevel regression (MR) and post-stratification (P). In the following sections, we will elaborate on how each of these two parts works, respectively.
